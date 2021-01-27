@@ -1,0 +1,229 @@
+{
+  "main": {
+    "name": "Saneel Daniel",
+    "occupation": "Software Engineer",
+    "description": "I am a motivated self-learner, currently in my final year of Undergraduation In Software Engineering and seeking full-time/intern Full-Stack Software/BlockChain Developer Roles. I hope to leverage my knowledge and experience to be able to work on  complex and challenging projects",
+    "image": "profilepic.jpg",
+    "bio": "Curiosity & Eagerness about technologies and understanding how their implementation can help serve the community, is what draws me towards the fields of Software Development. I have a good understanding of Data Structures and Algorithms, and core concepts of Computer Science. Proficient in Web/Mobile Development with ReactJS, and React Native, and also hold strong knowledge and experience in back-end development with Java, Node.JS, and AWS/GCP Cloud Tools. ",
+    "contactmessage": "I hope you found my profile worthwhile and to get in touch with you !",
+    "email": "saneel.daniel07@gmail.com",
+    "phone": "+1 (669)-278-5078",
+    "address": {
+      "street": "33 S 3rd St,",
+      "city": "San Jose",
+      "state": "California",
+      "zip": "95113"
+    },
+    "website": "https://danielsaneeldennis--portfolio.web.app",
+    "resumedownload": "https://drive.google.com/file/d/16B08jzLUJ_9PC44odT2NXSb7OsI0zrfE/view?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/saneel-daniel/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "gmail",
+        "url": "mailto:saneel.daniel07@gmail.com",
+        "className": "fa fa-google-plus"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/SaneelDaniel",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/saneeldaniel94",
+        "className": "fa fa-facebook"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Proficient in Back-End development with Node.JS, Java, Solidity, and Express.JS, and Front-End development with ReactJS, React Native, Web3.Js! ",
+    "additionalSkills": "I am a professional and self-motivated individual, Always eager to learn new things, and excited to build things that matter. ",
+    "education": [
+      {
+        "school": "San Jose State University",
+        "degree": "Bachelors of Science in Software Engineering",
+        "graduated": "May 2021",
+        "description": "As part of my Academic Curriculum, I assimilated knowledge and interest in various technologies for Software Developement. Being part of the SJSU community, also helped me understand the value of team work and collaborative efforts."
+      },
+      {
+        "school": "Institute Of Diploma Studies, Nirma University",
+        "degree": "Diploma in Information Technology",
+        "graduated": "May 2016",
+        "description": "As part of my Diploma, I was academically briefed on various parts and functions of the Information Technology Stack. Out of all the valuable learning material, the power of Coding and Software Developement stuck with me."
+      }
+    ],
+    "work": [
+      {
+        "company": "Cobalt Lend",
+        "title": "Volunteer, Blockchain Developer",
+        "years": "March 2021 - Present",
+        "description": "Collaborating remotely with a team of 15 towards research, design and implementation of Cobalt Lend (CBLT) community voting based lending system business logic and coin swap function as smart contracts on the Ethereum Blockchain, and/or NULS framework. System implementation tech stack EVM, Solidity, Java, React.JS, NULS Chain Box."
+      },
+      {
+        "company": "Freelance Collaboration",
+        "title": "Full-Stack Web Developer",
+        "years": "February 2021 - May 2021",
+        "description": "Collaborating with another team-mate to design and develop a production grade (Sass) single-vendor e-commerce web app for a client. Major features like subscriptions, build-your-own console that allows users to assemble a desktop from scratch as per their needs, etc. Tech Stack: SQL Server, Node.js, GraphQL, Bootstrap 4, React/Next.Js"
+      },
+      {
+        "company": "Event Services, San Jose State University",
+        "title": "AV Technician",
+        "years": "September 2019 - Present",
+        "description": "Coordinating with clients and managing the technical (AV) requirements for everyday events held in the Student Union at SJSU were a big part of my responsibilities."
+      },
+      {
+        "company": "Nirma University, Ahmedabad, India",
+        "title": "Software Developer Intern",
+        "years": "January 2016 - May 2016",
+        "description": "Assisted the IT team of Nirma University, as part of a small team of student developers, in designing, prototyping and developing a scalable web portal for students to stay updated of all the news/updates about the Campus Community. \n Technology Stack: Asp.Net, JavaScript,HTML & Microsoft SQL Server"
+      },
+      {
+        "company": "Daemonia Inc, Ahmedabad, India",
+        "title": "Co-Founder / Partner",
+        "years": "May 2014 - Dec 2015",
+        "description": "Co-Founded an Event Organizing & Managing Firm along with 3 other partners.  Organized a total of 4 events in the year 2014-2015, generating a revenue of over $8000"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "90%"
+      },
+      {
+        "name": "Node.Js",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "Solidity",
+        "level": "70%"
+      },
+      {
+        "name": "React.Js",
+        "level": "90%"
+      },
+      {
+        "name": "React Native",
+        "level": "90%"
+      },
+      {
+        "name": "Javascript",
+        "level": "90%"
+      },
+      {
+        "name": "Web3.JS",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "60%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      },
+      {
+        "name": "DynamoDB",
+        "level": "70%"
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Amazon Clone Web-App",
+        "category": "Ecommerce Mock Based on Amazon",
+        "image": "amazon-clone.png",
+        "url": "https://github.com/SaneelDaniel/AmazonClone"
+      },
+      {
+        "title": "De-Centralized Art Hosting Platform",
+        "category": "Blockchain Based Art hosting platform",
+        "image": "screenshot-homescreen-decentragram.png",
+        "url": "https://github.com/SaneelDaniel/IncetivizedArtSharing_DApp"
+      },
+
+      {
+        "title": "NBA player Analysis/Web-Scrapping",
+        "category": "A python app, to web-scrap nba player data and analyse/visualize and find co-relations",
+        "image": "nba-analysis.png",
+        "url": "https://github.com/SaneelDaniel/nba-player-analysis-python"
+      },
+      {
+        "title": "React Native Group Chat Moible App",
+        "category": "A group chat app, built with React Native, inspired by Signal",
+        "image": "groupchat.png",
+        "url": "https://github.com/SaneelDaniel/signal-clone-ReactNative"
+      },
+      {
+        "title": "Crypto Price Tracker Web-App ",
+        "category": "Crypto",
+        "image": "crypto-tracker.png",
+        "url": "https://github.com/SaneelDaniel/crypto-tracker-client-app"
+      },
+      {
+        "title": "Trav-Safe",
+        "category": "(offline now) Developing A Safety Travel Rating App In React Native with AWS & Java back-end",
+        "image": "travsafe-Logo.png",
+        "url": "https://github.com/SaneelDaniel/TravSafe-Component-BuildAndTesting"
+      },
+      {
+        "title": "De-Centralized File storing/sharing Platform ",
+        "category": "De-Centralized file storing DApp based over Ethereum Blockchain",
+        "image": "screenshot-dapp-dropbox.png",
+        "url": "https://github.com/SaneelDaniel/mock-DApp-dropbox"
+      },
+      {
+        "title": "Android Stock App",
+        "category": "A stock viewing applicaition i developed using Android Studo, Java and MySQL",
+        "image": "android-stock.png",
+        "url": "https://github.com/SaneelDaniel/AndroidStockApp"
+      },
+      {
+        "title": "PHP Bookmarks Manager App",
+        "category": "A basic Bookmark Manager/Marker Web-Page app built on PHP and html",
+        "image": "bookmarks-php.png",
+        "url": "https://github.com/SaneelDaniel/BookmarksManagerPHP"
+      },
+      {
+        "title": "Desktop Calendar App",
+        "category": "A Java/JavaFX/JavaSwing based calendar app",
+        "image": "calendar-java.png",
+        "url": "https://github.com/SaneelDaniel/DesktopCalendarAppJAVA"
+      },
+      {
+        "title": "Kumi Web Client",
+        "category": "A Python/PostGreSQL based team messaging app",
+        "image": "kumi-home.png",
+        "url": "http://kumix.herokuapp.com/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Education is the most powerful weapon which you can use to change the world.",
+        "user": "Nelson Mandela"
+      },
+      {
+        "text": "Tell me and I forget, teach me and I may remember, involve me and I learn.",
+        "user": "Benjamin Franklin"
+      },
+      {
+        "text": "It’s not that I’m so smart, it’s just that I stay with problems longer.",
+        "user": "Albert Einstein"
+      }
+    ]
+  }
+}
