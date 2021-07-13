@@ -1,12 +1,82 @@
-# Getting Started with Create React App
+## `Space Token ERC20 + Crowd Sale `
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Welcome to the SpaceToken Repo
+
+    -- This repo consists two solidity contract, and a frontend client app:
+
+        1. SpaceToken.sol: This is a contract for the ERC20 token
+
+        2. SpaceTokenSale.sol: This is a contract for the CrowdSale  for the token
+
+        3. The Client App: Connects to metamask to facilitate authorize transactions
+
+    -- This is a basic token that I built to understand the ERC20 architecture, and Rinkeby deployment
+
+    -- The token is deplyed by admin, and the sale contract can only be started/ended by the admin, with an initial sale quantity.
+
+    -- The contracts are written in Solidity Language, and tested and
+        deployed using Ganache and Truffle Framework
+
+    -- The Client Side app is developed using React.JS & Web3.js
+
+    -- The tests are written using Chai Framework
+
+## Screen shots Of the Running App
+
+### Admin Page
+
+(The client side front-page with the admin account)
+
+![home-page-image](images/admin-acct.png)
+
+### Home Page - Account 1
+
+(The Account with 0 tokens)
+
+![initial](images/acct2-initial.png)
+
+### Account 1 - buy tokens
+
+(The account buy transaction verification)
+
+![buy](images/acct2-buy.png)
+
+### Account 1 - bought tokens
+
+(The account buy transaction completed)
+
+![bought](images/acct2-bought.png)
 
 ## Available Scripts
 
+## Starting the Block Chain Network and Deploying the contracts
+
+#### Install Ganache, Truffle Framework, and Metamask Browser Extention
+
 In the project directory, you can run:
 
-### `yarn start`
+### `npm install`
+
+Installs all the necessary packages to run the app i development mode.\
+
+The cosole will show if the packages were successfully installed.\
+You will also see any lint errors in the console.
+
+### `truffle migrate --reset`
+
+Deploys the contract on the network, and resets any other version of the contract on the network.
+
+### `truffle console`
+
+Open up the truffle console to test or check the network details.
+
+### `truffle test`
+
+To test the basic tests
+
+## Client Side
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,57 +84,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+# NOTE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+you will need metamask extention on your browser, and the ganache account linked to the metamask accounts.

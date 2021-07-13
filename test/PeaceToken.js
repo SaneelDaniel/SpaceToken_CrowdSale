@@ -1,29 +1,29 @@
-var PeaceToken = artifacts.require("./PeaceToken.sol");
+var SpaceToken = artifacts.require("./SpaceToken.sol");
 
-contract("PeaceToken", function (accounts) {
+contract("SpaceToken", function (accounts) {
   var tokenInstance;
 
   it("initializes the contract with the correct values", function () {
-    return PeaceToken.deployed()
+    return SpaceToken.deployed()
       .then(function (instance) {
         tokenInstance = instance;
         return tokenInstance.name();
       })
       .then(function (name) {
-        assert.equal(name, "Peace Token", "has the correct name");
+        assert.equal(name, "Space Token", "has the correct name");
         return tokenInstance.symbol();
       })
       .then(function (symbol) {
-        assert.equal(symbol, "PEACE", "has the correct symbol");
+        assert.equal(symbol, "Space", "has the correct symbol");
         return tokenInstance.standard();
       })
       .then(function (standard) {
-        assert.equal(standard, "Peace Token v1.0", "has the correct standard");
+        assert.equal(standard, "Space Token v1.0", "has the correct standard");
       });
   });
 
   it("sets the total supply upon deployment", function () {
-    return PeaceToken.deployed()
+    return SpaceToken.deployed()
       .then(function (instance) {
         tokenInstance = instance;
         return tokenInstance.totalSupply();
@@ -46,7 +46,7 @@ contract("PeaceToken", function (accounts) {
   });
 
   it('transfers token ownership', function() {
-    return PeaceToken.deployed().then(function(instance) {
+    return SpaceToken.deployed().then(function(instance) {
       tokenInstance = instance;
       // Test `require` statement first by transferring something larger than the sender's balance
       return tokenInstance.transfer.call(accounts[1], 99999999999999999999999);
@@ -72,7 +72,7 @@ contract("PeaceToken", function (accounts) {
   });
 
   it("handles delegated token transfers", function () {
-    return PeaceToken.deployed()
+    return SpaceToken.deployed()
       .then(function (instance) {
         tokenInstance = instance;
         fromAccount = accounts[2];
@@ -170,7 +170,7 @@ contract("PeaceToken", function (accounts) {
   });
 
   it("approves tokens for delegated transfer", function () {
-    return PeaceToken.deployed()
+    return SpaceToken.deployed()
       .then(function (instance) {
         tokenInstance = instance;
         return tokenInstance.approve.call(accounts[1], 100);
